@@ -1,0 +1,206 @@
+
+    html {
+        scroll-behavior: smooth;
+        margin: 0;
+        padding: 0;
+      }
+
+body {
+    background-color: #FFF9FB;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    height:80px;
+    width: 100%;
+    padding:2px;
+    margin: auto;
+    background-color: #FFF9FB;
+    position: fixed;
+}
+
+ul { 
+    
+    text-decoration: none;
+    margin-right: 20px;
+    word-spacing: 15px;
+    
+
+}
+
+ul li { 
+    
+    display: inline-block;
+    font-size: 20px;
+    padding: 6px;
+    background-color: firebrick;
+    color:white;
+    font-weight: bold;
+    letter-spacing:2px;
+    border-radius: 3px;
+
+}
+
+ul li:hover {
+    background-color:rgb(20, 2, 2);
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#ustsollogo {
+    
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    margin: auto;
+    margin-left: 10px;
+    color: white;
+    font-size: 50px;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: firebrick;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+#ustsagmenu {
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    width: 50%;
+    height: 100%;
+}
+
+#slogan {
+    height:400px;
+    width:99%;
+    background-color: firebrick;
+    margin: auto;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+   
+}
+
+h2 {
+    font-size: 80px;
+    color: firebrick;
+    background-color: yellow;
+    padding:5px;
+    border-radius: 3px;
+    
+  
+
+}
+
+#slogan2 {
+    
+    height:fit-content;
+    width:99%;
+    margin: auto;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top:1px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.cards {
+    height:fit-content;
+    width:33%;
+    background-color: firebrick;
+    border: 1px solid #FFF9FB;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#document {
+    height: 500px;
+    width:99%;
+    background-color: #252627;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    margin-top:1px;
+    border-radius: 3px;
+    color: white;
+    font-size: 80px;
+    padding-top: 80px;
+}
+
+#learn {
+    height: 500px;
+    width:99%;
+    background-color: #252627;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top:1px;
+    border-radius: 3px;
+    color: white;
+    font-size: 80px;
+    padding-top: 80px;
+}
+
+#contact {
+    height: 600px;
+    width:99%;
+    background-color: #252627;
+    margin: auto;
+    margin-top:1px;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    display:flex;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items:center;
+}
+
+a { text-decoration: none; color: white;}
+
+table {
+    margin: auto;
+}
+
+table tr td {
+    height: 50px;
+    width:180px;
+    padding:1px;
+    text-align: left;
+}
+
+.submit {
+    text-align: right;
+}
+
+h3 {
+    font-size: 80px;
+    color: white;
+}
